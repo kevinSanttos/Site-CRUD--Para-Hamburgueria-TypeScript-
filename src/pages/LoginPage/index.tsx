@@ -1,13 +1,15 @@
 import { StyledLoginPage } from './style';
 import LoginForm from '../../components/Form/LoginForm';
 import IllustrationBox from '../../components/IllustrationBox';
-
 import { StyledButtonLink } from '../../styles/button';
 import { StyledContainer, StyledGridBox } from '../../styles/grid';
 import { StyledParagraph, StyledTitle } from '../../styles/typography';
 
-const LoginPage = () => (
-  <StyledLoginPage>
+
+const LoginPage = () => {
+ 
+  return(
+    <StyledLoginPage>
     <StyledContainer>
       <div className='flexGrid'>
         <div className='left'>
@@ -34,6 +36,8 @@ const LoginPage = () => (
       </div>
     </StyledContainer>
   </StyledLoginPage>
-);
+  )
+  
+};
 
 export default LoginPage;
