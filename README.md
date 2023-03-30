@@ -1,0 +1,1 @@
+Desenvolvi um site em TypeScript pensado para uma Hamburgueria, ele possui uma telaa de cadastro e uma de login, alem de uma HomePage onde vc pode ver todos os produtos da loja que vem de uma API, o usuário tambem pode adicionar o produto ao carrinho e excluir do carrinho
